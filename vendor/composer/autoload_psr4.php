@@ -12,5 +12,6 @@ return array(
     'PhalApi\\NotORM\\' => array($vendorDir . '/phalapi/notorm/src'),
     'PhalApi\\CLI\\' => array($vendorDir . '/phalapi/cli/src'),
     'PhalApi\\' => array($vendorDir . '/phalapi/kernal/src'),
+    'Lcobucci\\JWT\\' => array($vendorDir . '/lcobucci/jwt/src'),
     'App\\' => array($baseDir . '/src/app'),
 );

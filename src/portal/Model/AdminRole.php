@@ -6,6 +6,6 @@ use PhalApi\Model\DataModel;
 class AdminRole extends DataModel {
 
     public function getTableName($id) {
-        return 'phalapi_portal_admin_role';
+        return 'portal_admin_role';
     }
 }

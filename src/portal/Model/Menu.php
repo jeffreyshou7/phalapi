@@ -6,7 +6,7 @@ use PhalApi\Model\NotORMModel;
 class Menu extends NotORMModel {
 
     public function getTableName($id) {
-        return 'phalapi_portal_menu';
+        return 'portal_menu';
     }
 
     public function getAllMenus() {

@@ -6,7 +6,7 @@ use PhalApi\Model\NotORMModel;
 class Admin extends NotORMModel {
 
     public function getTableName($id) {
-        return 'phalapi_portal_admin';
+        return 'portal_admin';
     }
 
     public function getByUsername($username) {
